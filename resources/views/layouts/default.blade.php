@@ -3,7 +3,7 @@
 <head>
     @include('includes.head')
 </head>
-<body>
+<body class="text-gray-900 text-sm">
     @include('includes.header')
     @yield('content')
     @include('includes.footer')
